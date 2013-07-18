@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<!-- Execute the demo as soon as page loading has been completed -->
+<body onload="onLoadHandler()">
+    <!-- JavaScript utility routines -->
+    <script type="text/javascript" src="Utility.js"></script>
+	
+    <!-- Animation segment manager -->
+    <script type="text/javascript" src="SegmentManager.js"></script>
+	
+    <!-- Main javascript file that drives the demo execution -->
+    <script type="text/javascript" src="Kt-Ao_SaveTheDateMain.js"></script>	
+    
+    <!-- Animation segment - introduction scroller -->
+    <script type="text/javascript" src="SegmentLargeScroller.js"></script>
+	
+	<!-- Animation segment - fade-to-black -->
+	<script type='text/javascript' src="SegmentFadeOut.js"></script>
+    
+    <!-- Animation segment - moiré pattern (with date) -->
+    <script type="text/javascript" src="SegmentMoire.js"></script>
+	
+	<!-- Animation segment - event location zoomer -->
+	<script type="text/javascript" src="SegmentLocationZoomer.js"></script>
+	
+	<!-- Animation segment - rotating photo zoomer -->
+	<script type="text/javascript" src="SegmentRotoPhotoZoomer.js"></script>
+	
+	<!-- Animation segment - final animation segment -->
+	<script type="text/javascript" src="SegmentFinal.js"></script>
+        
+    <!-- Strings -->
+    <input type="hidden" id="string_savethedate" value="Save The Date..."/>
+    <input type="hidden" id="string_eventdate" value="June 2, 2012"/>
+	<input type="hidden" id="string_eventlocation" value="Cylburn Arboretum"/>
+	<input type="hidden" id="string_savethedatefinal" value="Save The Date"/>
+	<input type="hidden" id="string_eventdatefinal" value="6-2-2012"/>
+	<input type="hidden" id="string_loading" value="Loading..."/>
+</body>
